@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> personal Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link href="style.css" rel="stylesheet"/>
+
+</head>
+<body>
+
+    <!--------------- HEADER ----------------->
+    <header id="header" class="header">
+        <div class="container">
+
+             <!--nav bar-->
+            <nav class="nav">
+                <a href="index.html" class="nav_brand">
+                    <i class="ri-code-s-slash-line"></i>
+                </a>
+                <div class="nav_menu" id="nav_menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#hero" class="nav_link">Home</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">About</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#qualification" class="nav_link">Qualification</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#services" class="nav_link">Services</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#projects" class="nav_link">Projects</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#contact" class="nav_link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav_toggel">
+                        <i id="nav_toggel" class="ri-menu-3-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--========= main ============-->
+    <main class="main">
+        <!-------HERO--------->
+        <section id="hero" class="hero">
+            <div class="conatiner">
+                <div class="d-grid hero-wrapper">
+                    <div class="hero_content">
+                        <h1 class="hero_title">
+                            Hi, I am Raj Nandani, <br>Web Developer.
+                        </h1>
+                        <p class="hero_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam accusantium illum error vero aliquam laborum repellat perspiciatis nobis non placeat, nostrum expedita vel eum at animi aliquid ab ratione quidem?</p>
+                        <div class="hero_info">
+                            <div class="hero_info-wrapper">
+                                <p class="hero_info-number">0</p>
+                                <h2 class="hero_info-title">Years <br> Experiance </h2>  
+                            </div>
+                            <div class="hero_info-wrapper">
+                                <p class="hero_info-number">20+</p>
+                                <h2 class="hero_info-title">Projects <br> Completed </h2>  
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assests/img/hero.jpg" alt="raj" class="hero_img">
+                </div>
+            </div>
+        </section>
+
+
+        <!--======= ABOUT =======-->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section_header">
+                    <h2 class="section_title">Abou Me</h2>
+                    <span class="section_subtitle">Who am I</span>
+                </div>
+                <div class="d-grid about_wrapper">
+                    <div class="about_content">
+                        <h3 class="about_title">I'm a Professional Web Developer</h3>
+                        <p class="about_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate autem dignissimos dolor, esse et adipisci harum deserunt placeat at in explicabo reiciendis consequuntur, exercitationem id reprehenderit neque hic delectus inventore?</p>
+                        <a href="#" class="btn btn--primary">Know More</a>
+                    </div>
+                    <div class="skills">
+                        <h3 class="skills_title">Technologies I've been working with: </h3>
+                        <div class="skills_wrapper">
+                            <div class="skills_content">
+                                <h4 class="skills_subtitle">Frontend</h4>
+                                <ul class="slills_list">
+                                    <li class="skills_item"><i class="ri-arrow-right-s-fill"></i>HTML</li>
+                                    <li class="skills_item"><i class="ri-arrow-right-s-fill"></i>CSS</li>
+                                    <li class="skills_item"><i class="ri-arrow-right-s-fill"></i>JavaScript</li>
+                                    <li class="skills_item"><i class="ri-arrow-right-s-fill"></i>Bootstap</li>
+                                    <li class="skills_item"><i class="ri-arrow-right-s-fill"></i>ReactJs</li>
+                                </ul>
+                            </div>
+                            <div class="skills_content">
+                                <h4 class="skills_subtitle">Backend</h4>
+                                <ul class="slills_list">                                  
+                                    <li class="skills_item"><i class="ri-arrow-right-s-fill"></i>NodeJs</li>
+                                    <li class="skills_item"><i class="ri-arrow-right-s-fill"></i>Python</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--======== Qualification ========-->
+
+        <section class="qualification section" id="qualification">
+            <div class="container">
+                <div class="section_header">
+                    <h2 class="section_title">Qualification</h2>
+                    <span class="section_subtitle">Education</span>
+                </div>
+            </div>
+
+            <!--education-->
+            <div class="qualification_wrapper">
+                <h3 class="qualification_name"><i class="ri-booklet-fill"></i>Education</h3>
+                <div class="d-grid qualification_content">
+                    <div class="qualification_item">
+                        <h3 class="qualification_title">Galgotias University</h3>
+                        <span class="qualification_date">2021-25</span>
+                    </div>
+                    <div class="qualification_item">
+                        <h3 class="qualification_title">12th PCM</h3>
+                        <span class="qualification_date">2020</span>
+                    </div>
+                    <div class="qualification_item">
+                        <h3 class="qualification_title">10th</h3>
+                        <span class="qualification_date">2018</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="qualification_footer">
+                <p class="qualification_footer-text">See my full resume</p>
+                <a href="#" class="btn btn--primary">Resume</a>
+            </div>
+        </section>
+
+        <!--======services======-->
+        <section class="service section" id="service">
+            <div class="container">
+                <div class="section_header">
+                    <h2 class="section_title">Services</h2>
+                    <span class="section_subtitle">What I do</span>
+                </div>
+                <div class="d-grid service_wrapper">
+                    <div class="service_card">
+                        <div class="service_icon">
+                            <i class="ri-layout-4-fill"></i>
+                        </div>
+                        <h3 class="service_title">Frontend <br> Development</h3>
+                        <a href="#" class="service_link">Know More</a>
+                    </div>
+
+                    <div class="service_card">
+                        <div class="service_icon">
+                            <i class="ri-code-s-slash-line"></i>
+                        </div>
+                        <h3 class="service_title">Backend <br> Development</h3>
+                        <a href="#" class="service_link">Know More</a>
+                    </div>
+
+                    <div class="service_card">
+                        <div class="service_icon">
+                            <i class="ri-pen-nib-fill"></i>
+                        </div>
+                        <h3 class="service_title">UI / UX <br> Design</h3>
+                        <a href="#" class="service_link">Know More</a>
+                    </div>        
+                </div>
+            </div>
+        </section>
+
+        <!-----projects------->
+
+        <section class="project section" id="project">
+            <div class="container">
+                <div class="section_header">
+                    <h2 class="section_title">Projects</h2>
+                    <span class="section_subtitle">My recent work</span>
+                </div>
+
+                <div class="d-grid project_wrapper">
+                    <div class="project_content">
+                        <img src="assests/img/cactus project.jpg" alt="cactus website" class="project_img">
+                        <h3 class="project_title">Cactus Website</h3>
+                        <p class="project_description">Developed a responsive, visually appealing online store for selling cacti, showcasing advanced frontend development skills in HTML, CSS, and JavaScript to enhance user experience and create an
+                            engaging e-commerce platform.</p>
+                        <a href="https://rajnandani28.github.io/Cactus/" class="project_link">View Project<i class="ri-arrow-right-line"></i></a>
+                    </div>
+
+                    <div class="project_content">
+                        <img src="assests/img/todoproject.png" alt="cactus website" class="project_img">
+                        <h3 class="project_title">Todo List</h3>
+                        <p class="project_description">Developed a React-based To-Do List application featuring task creation and editing. Ensured user friendly, and seamless user experience, enhancing task management efficiency and user satisfaction.</p>
+                        <a href="https://rajnandani28.github.io/Todo-List/" class="project_link">View Project<i class="ri-arrow-right-line"></i></a>
+                    </div>
+
+                    <div class="project_content">
+                        <img src="assests/img/weatherproject.webp" alt="cactus website" class="project_img">
+                        <h3 class="project_title">Weather App</h3>
+                        <p class="project_description">Developed a sleek and user-friendly weather app with real-time updates and customizable features,
+                            enhancing user experience and engagement. Utilized APIs to fetch accurate weather data and
+                            implemented intuitive design principles forseamless navigation.</p>
+                        <a href="https://rajnandani28.github.io/Weather/" class="project_link">View Project<i class="ri-arrow-right-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--------- contact ------->
+
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="d-grid contact_wrapper">
+                    <div class="contact_content">
+                        <h2 class="contact_title">
+                            Intrested in working  together? let's talk
+                        </h2>
+                        <p class="contact_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi hic maxime quos quod nobis dolore illo ad dolorem, reiciendis quam voluptatem ex. Quam, cupiditate? Veniam asperiores expedita quis laborum sequi.</p>
+                    </div>
+                    <div class="contact_info">
+                        <a href="#" class="btn btn--secondary">Get in touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!----footer----->
+
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="d-grid footer_wrapper">
+                    <div class="footer_content">
+                        <h4 class="footer_title">Follow Me</h4>
+                        <ul class="footer_social-list">
+                            <li class="footer_list-item">
+                                <i    class="ri-linkedin-fill"></i>
+                            </li>
+                            <li class="footer_list-item">
+                                <i class="ri-github-fill"></i>
+                            </li>
+                            <li class="footer_list-item">
+                                <i class="ri-twitter-x-fill"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_content">
+                        <h4 class="footer_titlle">Email Me</h4>
+                        <a href="#" class="footer_contact">rajnandani280403@gmail.com</a>
+                    </div>
+                    <div class="footer_content">
+                        <h4 class="footer_titlle">Call Me</h4>
+                        <a href="#" class="footer_contact">9905959474</a>
+                    </div>
+                </div>
+                <p class="footer_copyright">&copy; All right Reserved by raj nandani</p>
+            </div>
+        </footer>
+
+        
+    </main>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
